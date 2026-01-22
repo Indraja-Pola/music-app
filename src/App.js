@@ -28,19 +28,19 @@ function App() {
         <img src={img} className="logo" />
         <ul>
           <li>
-            <a onClick={showMessage}>HOME</a>
+            <button onClick={showMessage}>HOME</button>
           </li>
           <li>
-            <a onClick={showMessage}>ABOUT</a>
+            <button onClick={showMessage}>ABOUT</button>
           </li>
           <li>
-            <a onClick={showMessage}>SPECIFICATIONS</a>
+            <button onClick={showMessage}>SPECIFICATIONS</button>
           </li>
           <li>
-            <a onClick={showMessage}>PRODUCTS</a>
+            <button onClick={showMessage}>PRODUCTS</button>
           </li>
           <li>
-            <a onClick={showMessage}>CONNECT</a>
+            <button onClick={showMessage}>CONNECT</button>
           </li>
         </ul>
       </div>
